@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "path": "../.."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.CustomBrowser": "chrome",
+    "git.ignoreLimitWarning": true,
+    "search.useGlobalIgnoreFiles": true
+  }
+}
