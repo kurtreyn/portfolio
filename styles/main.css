@@ -8,17 +8,16 @@ body {
   font-style: normal;
   font-family: "Montserrat", sans-serif;
   font-size: medium;
-  /* background-color: cadetblue; */
+  background-color: cadetblue;
 }
 
 #grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr 0.2fr;
+  grid-template-rows: auto;
+  /*   grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr 0.2fr; */
   height: 100vh;
-  background-image: url(../images/common/unsplash.jpg);
-  /* background-repeat: no-repeat; */
-  /* background-position: inherit 100% ; */
+  background-image: url(https://github.com/kurtreyn/portfolio/blob/master/images/common/unsplash.jpg?raw=true);
   background-size: cover;
 }
 
@@ -251,14 +250,14 @@ footer {
 /* ////////////////////////////// GLOBAL  ///////////////////////////*/
 
 .pgImg {
-  display: flex;
-  flex-shrink: 10;
+  /*   display: flex; */
+  /*   flex-shrink: 10; */
 }
 
 .pgImg img {
   /* width: 40%; */
-  max-width: 250px;
-  max-height: 150px;
+  /*   max-width: 250px;
+  max-height: 150px; */
 }
 
 .section2-content img {
@@ -333,17 +332,24 @@ footer {
     display: flex;
   }
 
+  .page-title {
+    display: none;
+  }
+
   .main-container {
     height: auto;
   }
 
   .page-container {
     width: 100%;
-    height: auto;
     /* background-color: lightgreen; */
   }
 
   .arrow-container {
     width: 100%;
+  }
+
+  .contentTxt {
+    font-size: 0.7rem;
   }
 }
