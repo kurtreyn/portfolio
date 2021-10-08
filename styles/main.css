@@ -100,43 +100,32 @@ main {
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
-  width: 70%;
-  height: auto;
+  flex-shrink: 2;
+  width: 90%;
+  height: 75%;
   border: solid black 2px;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* background-color: lightgreen; */
 }
 
-.txtContent {
+.img-container {
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.img-container img {
+  /* width: 800px; */
+  max-width: 90%;
+}
+
+.text-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  justify-self: flex-end;
   width: 100%;
   /* background-color: rgb(238, 179, 136); */
-}
-
-.btnWrapper {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  /* background-color: darkred; */
-}
-
-.codeBTN {
-  height: fit-content;
-  background-color: rgb(87, 200, 238);
-  border-radius: 10%;
-  align-self: center;
-  width: 45px;
-}
-
-.visitPageBTN {
-  height: fit-content;
-  background-color: rgb(87, 200, 238);
-  border-radius: 10%;
-  align-self: center;
-  width: 80px;
 }
 
 .arrow-container {
@@ -145,7 +134,7 @@ main {
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  width: 70%;
+  width: 90%;
   color: white;
   border: solid black 2px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -287,15 +276,6 @@ footer {
 /* ////////////////////////////// RESPONSIVE  ///////////////////////////*/
 
 @media (max-width: 600px) {
-  .page-container {
-    width: 100%;
-    /* background-color: lightgreen; */
-  }
-
-  .arrow-container {
-    width: 100%;
-  }
-
   .nav {
     display: flex;
     justify-content: space-between;
@@ -350,5 +330,19 @@ footer {
 
   .navbar-links.active {
     display: flex;
+  }
+
+  .main-container {
+    height: auto;
+  }
+
+  .page-container {
+    width: 100%;
+    height: auto;
+    /* background-color: lightgreen; */
+  }
+
+  .arrow-container {
+    width: 100%;
   }
 }
