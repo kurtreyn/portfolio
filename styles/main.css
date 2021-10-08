@@ -102,7 +102,7 @@ main {
   align-content: flex-start;
   flex-shrink: 2;
   width: 90%;
-  height: 75%;
+  height: 75%, auto;
   border: solid black 2px;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -110,13 +110,14 @@ main {
 }
 
 .img-container {
+  display: flex;
   width: 100%;
   /* background-color: blue; */
 }
 
 .img-container img {
-  /* width: 800px; */
-  max-width: 90%;
+  width: 80%;
+  object-fit: contain;
 }
 
 .text-container {
