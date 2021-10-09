@@ -17,7 +17,7 @@ body {
   grid-template-rows: auto;
   /*   grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr 0.2fr; */
   height: 100vh;
-  background-image: url(https://github.com/kurtreyn/portfolio/blob/master/images/common/unsplash.jpg?raw=true);
+  background-image: url(/images/common/unsplash.jpg);
   background-size: cover;
 }
 
@@ -227,8 +227,8 @@ main {
 }
 
 /* .icon p {
-  color: white;
-} */
+    color: white;
+  } */
 
 /* ////////////////////////////// FOOTER  ///////////////////////////*/
 footer {
@@ -257,7 +257,7 @@ footer {
 .pgImg img {
   /* width: 40%; */
   /*   max-width: 250px;
-  max-height: 150px; */
+    max-height: 150px; */
 }
 
 .section2-content img {

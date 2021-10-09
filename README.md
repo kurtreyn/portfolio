@@ -1,3 +1,2 @@
 # portfolio
-
-Central hub for web develpment projects by Kurt Reynolds.
+Kurt Reynolds portfolio hub for projects
