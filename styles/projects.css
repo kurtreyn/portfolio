@@ -16,7 +16,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr 0.2fr;
     height: 100vh;
-    background-image: url(/images/common/unsplash.jpg);
+    background-image: url(../images/common/unsplash.jpg);
     /* background-repeat: no-repeat; */
     /* background-position: inherit 100% ; */
     background-size: cover;
