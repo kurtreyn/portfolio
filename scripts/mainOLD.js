@@ -1,6 +1,5 @@
 'strict';
 
-//----------------------------- NAVBAR
 const menuToggleBtn = document.querySelector('.menu-toggle-button');
 const navbarLinks = document.querySelector('.navbar-links');
 
@@ -10,7 +9,7 @@ const toggleMenu = function () {
 
 menuToggleBtn.addEventListener('click', toggleMenu);
 
-// -------------------------- SLIDER CONTROLS
+// --------------------------------- PAGE SLIDER
 const pages = document.querySelector('.page-container').children;
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
@@ -19,9 +18,9 @@ let index = 0;
 
 const updatePagePosition = function () {
   for (let page of pages) {
-    page.classList.add('hidden-pages');
+    page.classList.remove('active');
   }
-  pages[index].classList.remove('hidden-pages');
+  pages[index].classList.add('active');
 };
 
 const nextPage = function () {

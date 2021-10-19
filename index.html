@@ -15,6 +15,9 @@
       href="images/favicons.ico/faviconLogo.ico"
       type="image/x-icon"
     />
+
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
@@ -28,149 +31,194 @@
   </head>
 
   <body>
-    <div id="grid-container">
-      <header>
-        <div class="nav">
-          <a href="#" class="menu-toggle-button hidden">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="pages/projects.html">Projects</a></li>
-              <li><a href="pages/about.html">About</a></li>
-              <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="page-title">Kurt Reynolds: Project Portfolio</div>
-          <div class="logoHeader">
-            <img src="images/eclipsisPgImg.png" alt="logo" />
-          </div>
-        </div>
-      </header>
+    <!-- ////////////////////// NAVBAR ///////////////////   --> 
+<header>
+  <nav class="navbar">
+    
 
-      <main>
-        <div class="main-container">
-          <div class="page-container">
-            <div class="content-1 pages active">
-              <div class="img-container">
-                <a style="display:contents" href="https://kurtreyn.github.io/storyteller/index.html" target="_blank">
-                <img
-                  src="images/pageImg/storyteller-thumbnail-960x540.jpg"
-                  alt="storyteller webpage image"
-                />
-                </a>
-              </div>
-              <div class="text-container">
-                <span class="contentTxt"
-                  ><h3>Storyteller Studios</h3>
-                  The first project I made when I started learning CSS &
-                  JavaScript in mid-July 2021</span
-                >
-              </div>
-            </div>
+    
+<!--  HAMBURGER MENU    -->
+    <a href="#" class="menu-toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a> 
+    
+    
+    <div class="navbar-links">
+      <ul>
+          <li> <a href="index.html">Home</a> </li>
+          <li> <a href="pages/about.html">About</a> </li>
+          <li> <a href="pages/projects.html">Projects</a> </li>
+          <li> <a href="pages/contact.html">Contact</a> </li>
+      </ul>
+    </div> 
+    
+              <a class="navbar-logo">
+      <img src="/images/eclipsisPgImg.png" alt="logo">
+    </a>
+    
+    </nav>
+</header>
 
-            <div class="content-2 pages">
-              <div class="img-container">
-                <a style="display: contents" href="https://kurtreyn.github.io/photographysite/index.html" target="_blank">
-                <img
-                  src="images/pageImg/iDea-thumnail-960x540.jpg"
-                  alt="i.Dea photography site"
-                />
-                </a>
-              </div>
-              <div class="text-container">
-                <span class="contentTxt"
-                  ><h3>i.Dea Photography</h3>
-                  Made with Bootstrap and jQuery. Started on October 5, 2021.</span
-                >
-              </div>
-            </div>
+<!-- /////////////////// TITLE AREA SECTION ///////////////   --> 
+<section class="title-area">
+  <div class="title-container">
+    <span>
+      <h1>Featured Projects</h1>
+    </span>
+  </div>
+</section>
 
-            <div class="content-3 pages">
-              <div class="img-container">
-                <img
-                  src="images/stockPhotos/tech/laptop-2557571_1920.jpg"
-                  alt="person dr
-                inking coffee at desk"
-                />
-              </div>
-              <div class="text-container">
-                <span class="contentTxt"
-                  ><h3>Project 3</h3>
-                  Details for project will be posted soon...</span
-                >
-              </div>
-            </div>
-          </div>
-          <!-- END PAGE CONTAINER -->
-
-          <div class="arrow-container">
-            <a class="prev arrowBTN" aria-label="previous page">&#10094;</a>
-            <a class="next arrowBTN" aria-label="next page">&#10095;</a>
-          </div>
-        </div>
-      </main>
-      <!-- END MAIN -->
-
-      <div id="section2">
-        <div class="section2-content">
-          <div class="icon">
-            <a href="/portfolio/pages/projects.html">
-              <img
-                src="images/icons/general/folder-project-icon.png"
-                alt="projects icon"
-              />
-              <!-- <p>Projects</p> -->
-            </a>
-          </div>
-
-          <div class="icon">
-            <a href="/portfolio/pages/about.html">
-              <img
-                src="images/icons/general/information-icon.png"
-                alt="about icon"
-              />
-            </a>
-          </div>
-
-          <div class="icon">
-            <a href="/portfolio/pages/contact.html">
-              <img
-                src="images/icons/general/email-icon.png"
-                alt="contact icon"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <footer>
-        <a
-          href="https://www.linkedin.com/in/kurt-reynolds-447ab632/"
-          target="_blank"
-        >
-          <img
-            src="images/icons/social/5296501_linkedin_network_linkedin logo_icon.png"
-            class=""
-            alt="linkedin icon"
-          />
-        </a>
-
-        <img src="images/eclipsisPgImg.png" class="footerICN" alt="logo" />
-
-        <a href="https://github.com/kurtreyn" target="_blank">
-          <img
-            src="images/icons/social/4202098_github_code_developer_logo_icon.png"
-            class=""
-            alt="linkedin icon"
-          />
-        </a>
-      </footer>
+<!-- /////////////// FEATURED PROJECTS SECTION //////////   --> 
+<section class="featured-projects">
+<div class="page-container">
+  
+<!--  FIRST PAGE  -->
+  <div class="pages item-1">
+    <div class="img-container">
+      <a style="display:contents" href="https://kurtreyn.github.io/storyteller/index.html" target="_blank">
+      <img src="/images/pageImg/storyteller-thumbnail-960x540.jpg" alt="storyteller thumbnail">
+      </a>
     </div>
-    <!-- END GRID CONTAINER -->
+<!--  END IMG-CONTAINER    -->
+    
+    <div class="text-container">
+      <span>
+        <h3>Storyteller Studios</h3>
+        The first project I made when I started learning CSS & JavaScript in mid-July 2021
+      </span>
+    </div>
+<!--  END TEXT CONTAINER    -->  
+  </div>
+<!-- END FIRST PAGE   -->
+   
+
+<!--  SECOND PAGE  -->
+  <div class="hidden-pages pages item-2">
+    <div class="img-container">
+      <a style="display: contents" href="https://kurtreyn.github.io/photographysite/index.html" target="_blank">
+      <img src="/images/pageImg/iDea-thumnail-960x540.jpg" alt="i.Dea thumbnail">
+    </a>
+    </div>
+<!--  END IMG-CONTAINER    -->
+    
+    <div class="text-container">
+       <span>
+        <h3>i.Dea Photography</h3>
+        Made with Bootstrap and jQuery. Started on October 5, 2021.
+      </span>
+    </div>
+<!--  END TEXT CONTAINER    -->  
+  </div>
+<!-- END SECOND PAGE   -->
+  
+<!--  THIRD PAGE  -->
+  <div class="hidden-pages pages item-3">
+    <div class="img-container">
+      <a style="display: contents" href="#" target="_blank">
+      <img src="/images/stockPhotos/tech/desktop-1245714_1920.jpg" alt="desktop thumbnail">
+      </a>
+    </div>
+<!--  END IMG-CONTAINER    -->
+    
+    <div class="text-container">
+       <span>
+        <h3>Project Name</h3>
+        Information coming soon
+      </span>
+    </div>
+<!--  END TEXT CONTAINER    -->  
+  </div>
+<!-- END THIRD PAGE   -->
+
+
+</div>
+<!-- ///// END CONTAINER ////// -->
+
+
+<!-- ARROW CONTAINER -->
+<div class="arrow-container">
+  <a class="prev arrowBTN" aria-label="previous page">&#10094;</a>
+  <a class="next arrowBTN" aria-label="next page">&#10095;</a>
+</div>
+</section>
+
+<!-- /////////////// MIDDLE SECTION //////////   --> 
+
+
+<div class="middle-container">
+  <div class="items item-1">
+    <div class="icon-container"> 
+      <a href="pages/projects.html">
+     <i class="lni lni-code-alt"></i>
+      </a>
+    </div>
+    <div class="text-container-middle"> 
+      <span><h3>Projects</h3></span>
+    </div>
+  </div>
+   
+  <div class="items item-2"> 
+    <div class="icon-container"> 
+      <a style="display: contents" href="pages/about.html">
+     <i class="lni lni-information"></i>
+      </a>
+    </div>
+    <div class="text-container-middle"> 
+      <span><h3>About</h3></span>
+    </div>
+  </div>
+
+   <div class="items item-4"> 
+     <div class="icon-container"> 
+       <a style="display: contents" href="pages/contact.html">
+    <i class="lni lni-envelope"></i>
+       </a>
+    </div>
+     <div class="text-container-middle"> 
+      <span><h3>Contact</h3></span>
+    </div>
+  </div>
+</div>
+<!-- END CONTAINER -->
+
+<footer>
+  <div class="footer-container">
+  <div class="footer-items item-1">
+    <div class="footer-icon-container"> 
+       <a style="display: contents" href="https://www.linkedin.com/in/kurt-reynolds-447ab632/" target="_blank">
+     <i class="lni lni-linkedin-original"></i>
+      </a>
+    </div>
+  </div>
+   
+  <div class="footer-items item-2"> 
+    <div class="footer-icon-container"> 
+      <a style="display: contents" href="https://github.com/kurtreyn" target="_blank">
+     <i class="lni lni-github-original"></i>
+      </a>
+    </div>
+  </div>
+  
+   <div class="footer-items item-3"> 
+     <div class="footer-icon-container"> 
+      <a style="display: contents" href="https://dev.to/kurtreyn" target="_blank">
+    <i class="lni lni-dev"></i>
+       </a>
+    </div>
+  </div>
+
+   <div class="footer-items item-4"> 
+     <div class="footer-icon-container"> 
+       <a style="display: contents" href="#">
+    <i class="lni lni-envelope"></i>
+       </a>
+    </div>
+  </div>
+</div>
+<!-- END CONTAINER -->
+</footer>
 
     <script src="scripts/main.js"></script>
   </body>

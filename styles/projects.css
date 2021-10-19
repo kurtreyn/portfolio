@@ -167,6 +167,12 @@
     width: 50%;
     /* background-color: rgb(129, 9, 103); */
   }
+
+
+
+  .img-container img {
+    width: 100%;
+  }
   
   /* ////////////////////////////// SECTION 2  ///////////////////////////*/
   #section2 {
