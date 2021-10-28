@@ -3,126 +3,161 @@
   <head>
     <link rel="stylesheet" href="../styles/contact.css" />
 
-    <title>Eclipses</title>
+    <title>Kurt Reynolds Portfolio: Contact</title>
 
     <meta charset="UTF-8" />
-    <meta name="description" content="eclipses web development"/>
-    <meta name="keywords" content="eclipses web development kurt reynolds"/>
+    <meta name="description" content="Kurt Reynolds Project Portfolio" />
+    <meta name="keywords" content="web development kurt reynolds" />
     <meta name="author" content="Kurt Reynolds" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../images/favicons.ico/faviconLogo.ico" type="image/x-icon">
+    <link
+      rel="icon"
+      href="../images/favicons.ico/faviconLogo.ico"
+      type="image/x-icon"
+    />
+
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style>
-<script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
 <script src="../scripts/pages-jQ.js"></script>
   </head>
 
   <body>
-
-    <div id="grid-container">
-
-      <header>
-        <div class="nav">
-          <a href="#" class="menu-toggle-button hidden">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-          <ul>
-            <li> <a href="../index.html">Home</a> </li>
-            <li> <a href="projects.html">Projects</a> </li>
-            <li> <a href="about.html">About</a> </li>
-            <li> <a href="contact.html">Contact</a> </li>
-          </ul>
-          </div>
-          <div class="logoHeader">
-            <img src="../images/eclipsisPgImg.png" alt="logo">
-          </div>
-        </div>
-
-      </header>
-
-      <main>
+    <header>
+      <nav class="navbar">
         
-        <div class="main-container">
-          <div class="post-header"><h1>Contact</h1></div>
-        <div class="page-container">
-          <div class="content-1 content pages pgImg">
-            
-            
-          </div>
-
-          <div class="content-2 content pages pgImg">
-           
-          </div>
-
-          <div class="content-3 content pages pgImg">
-            
-          </div>
-
-          <div class="content-4 content pages pgImg">
-         
-          </div>
-
-        </div>    <!-- END PAGE CONTAINER -->
-     
     
+        
+    <!--  HAMBURGER MENU    -->
+        <a href="#" class="menu-toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a> 
+        
+        
+        <div class="navbar-links">
+          <ul>
+              <li> <a href="../index.html">Home</a> </li>
+              <li> <a href="about.html">About</a> </li>
+              <li> <a href="projects.html">Projects</a> </li>
+              <li> <a href="contact.html">Contact</a> </li>
+          </ul>
+        </div> 
+        
+                  <a class="navbar-logo">
+          <img src="../images/eclipsisPgImg.png" alt="logo">
+        </a>
+        
+        </nav>
+    </header>
+    
+    <!-- /////////////////// TITLE AREA SECTION ///////////////   --> 
+    <section class="title-area">
+      <div class="title-container">
+        <span>
+          <h1>Contact</h1>
+        </span>
+      </div>
+    </section>
+    
+<!-- /////////////////// CONTACT SECTION ///////////////   --> 
 
-       
-
-      </main>
-
-      <div id="section2">
-        <div class="section2-content">
-
-          <div class="icon"> 
-            <a href="/portfolio/pages/projects.html">
-             <img src="../images/icons/general/folder-project-icon.png"  alt="projects icon">
-            </a>
-          </div>
-         
-  
-            <div class="icon"> 
-              <a href="/portfolio/pages/about.html">
-               <img src="../images/icons/general/information-icon.png"   alt="about icon">
-              </a>
-            </div>
-  
-            <div class="icon"> 
-              <a href="/portfolio/pages/contact.html">
-                <img src="../images/icons/general/email-icon.png"   alt="contact icon">
-              </a>
-            </div>
-
+<section class="contact">
+  <div class="contact-container">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="name">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Message"></textarea>
+    <input type="submit" value="Submit">
+  </div>
+</section>
+    
+    <!-- /////////////// MIDDLE SECTION //////////   --> 
+    
+    
+    <div class="middle-container">
+      <div class="items item-1">
+        <div class="icon-container"> 
+          <a href="projects.html">
+         <i class="lni lni-code-alt"></i>
+          </a>
         </div>
-
+        <div class="text-container-middle"> 
+          <span><h3>Projects</h3></span>
+        </div>
+      </div>
+       
+      <div class="items item-2"> 
+        <div class="icon-container"> 
+          <a style="display: contents" href="about.html">
+         <i class="lni lni-information"></i>
+          </a>
+        </div>
+        <div class="text-container-middle"> 
+          <span><h3>About</h3></span>
+        </div>
+      </div>
+    
+       <div class="items item-4"> 
+         <div class="icon-container"> 
+           <a style="display: contents" href="contact.html">
+        <i class="lni lni-envelope"></i>
+           </a>
+        </div>
+         <div class="text-container-middle"> 
+          <span><h3>Contact</h3></span>
+        </div>
+      </div>
+    </div>
+    <!-- END CONTAINER -->
+    
+    <footer>
+      <div class="footer-container">
+      <div class="footer-items item-1">
+        <div class="footer-icon-container"> 
+           <a style="display: contents" href="https://www.linkedin.com/in/kurt-reynolds-447ab632/" target="_blank">
+         <i class="lni lni-linkedin-original"></i>
+          </a>
+        </div>
+      </div>
+       
+      <div class="footer-items item-2"> 
+        <div class="footer-icon-container"> 
+          <a style="display: contents" href="https://github.com/kurtreyn" target="_blank">
+         <i class="lni lni-github-original"></i>
+          </a>
+        </div>
       </div>
       
-
-      <footer>
-        
-          <a href="https://www.linkedin.com/in/kurt-reynolds-447ab632/" target="_blank">
-          <img src="../images/icons/social/5296501_linkedin_network_linkedin logo_icon.png" class="" alt="linkedin icon">
-        </a>
-
-        <img src="../images/eclipsisPgImg.png" class="footerICN" alt="logo">
-
-        <a href="https://github.com/kurtreyn" target="_blank">
-          <img src="../images/icons/social/4202098_github_code_developer_logo_icon.png" class="" alt="linkedin icon">
-        </a>
-       
-      </footer>
-
-
-
-
-    </div>  <!-- END GRID CONTAINER -->
-   
-
-
-    <script src="../scripts/pagesScript.js"></script>
-  </body>
-</html>
+       <div class="footer-items item-3"> 
+         <div class="footer-icon-container"> 
+          <a style="display: contents" href="https://dev.to/kurtreyn" target="_blank">
+        <i class="lni lni-dev"></i>
+           </a>
+        </div>
+      </div>
+    
+       <div class="footer-items item-4"> 
+         <div class="footer-icon-container"> 
+           <a style="display: contents" href="#">
+        <i class="lni lni-envelope"></i>
+           </a>
+        </div>
+      </div>
+    </div>
+    <!-- END CONTAINER -->
+    </footer>
+    
+        <script src="../scripts/pagesScript.js"></script>
+      </body>
+    </html>
+    
