@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url('/images/common/unsplash.jpg') no-repeat center center fixed;
+  background: url('../images/common/unsplash.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -66,17 +66,18 @@ body {
   .navbar {
     display: flex;
     justify-content: space-between;
+    height: auto;
   }
 
   .menu-toggle-button {
-    position: absolute;
+    position: relative;
     top: 0.45rem;
     left: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 18px;
   }
 
   .menu-toggle-button .bar {
@@ -117,6 +118,10 @@ body {
   .navbar-links.active {
     display: flex;
   }
+
+  .navbar-logo img {
+    max-width: 15%;
+  }
 }
 
 /* /////////////////// TITLE AREA SECTION ////////////// */
@@ -155,6 +160,11 @@ body {
 .code-btn {
   background-color: lightcyan;
   border-radius: 10%;
+}
+
+.code-btn a {
+  text-decoration: none;
+  color: black;
 }
 
 /* ///////////////////// MOBILE VIEW ///////////////// */
@@ -231,7 +241,7 @@ body {
   color: white;
   width: 100%;
   height: auto;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .footer-items i {
