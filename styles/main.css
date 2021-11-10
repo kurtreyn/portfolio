@@ -138,6 +138,7 @@ body {
   grid-gap: 2px;
   border: 2px solid black;
   grid-template-columns: minmax(0, 1fr);
+  margin: 0 5rem 0 5rem;
 }
 
 .pages {
@@ -192,6 +193,7 @@ body {
   align-items: center;
   color: white;
   border: solid black 2px;
+  margin: 0 5rem 0 5rem;
   background-color: rgba(0, 0, 0, 0.1);
   /* background-color: rgb(235, 29, 29); */
 }
